@@ -1,4 +1,5 @@
 import discord
+import os
 
 #Create an instance of a client
 #Intents specification required apparently

@@ -17,7 +17,7 @@ A clonable repository that can be used as a starting point for new discord bot p
         python -m venv project_name_venv
         ```
     
-    Your venv should now be created inside your project folder. It should also already be activated in the VSCode terminal. For more help, see (this helpful python tutorial)[https://www.youtube.com/watch?v=x1cbYa2SSlE&ab_channel=AirheadsBroadcasting]. Do **NOT** forget to put the name of your venv inside the .env file, to prevent uploading it to github.
+    Your venv should now be created inside your project folder. It should also already be activated in the VSCode terminal. For more help, see [this helpful python tutorial](https://www.youtube.com/watch?v=x1cbYa2SSlE&ab_channel=AirheadsBroadcasting "AirheadsBroadcasting"). Do **NOT** forget to put the name of your venv inside the .env file, to prevent uploading it to github.
     - Create a new requirements.txt file (or update it if you already have one) by typing
 
         ```
@@ -29,14 +29,14 @@ A clonable repository that can be used as a starting point for new discord bot p
         ```
         pip install -r requirements.txt
         ```
-    - You can install packages into your venv by typing the following. See correct installation name at (PPI)[https://pypi.org/].
+    - You can install packages into your venv by typing the following. See correct installation name at [PPI](https://pypi.org/ "Python Package Index").
 
         ```
         pip install package_name
         ```
 
 * Create a Discord Application.
-    - Go to the (discord developer portal)[https://discord.com/developers/docs/intro], select **Applications** -> create a **New application**.
+    - Go to the [discord developer portal](https://discord.com/developers/docs/intro), select **Applications** -> create a **New application**.
     - Choose a project name and provide a short description of your project. **Note:** This project name can be different from the bots username.
     - Go to **Settings** -> **Bot** and create a Bot user.
     - Configure the bot settings. Specifically: Toggle Public, and enable the **Presence-** **Server members-** and **Message Content -** Intents.

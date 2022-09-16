@@ -2,7 +2,7 @@
 
 
 ## Introduction and Purpose
-A clonable repository that can be used as a starting point for new discord bot projects. This repo contains my own instructions or "modus operandi", and might not work for you. Follow the instructions under "Getting started" below to get started.
+A clonable repository that can be used as a starting point for new discord bot projects. This repo contains my own instructions, and might not work for you. Follow the instructions under "Getting started" below to get started.
 
 
 ## Getting started
@@ -17,7 +17,8 @@ A clonable repository that can be used as a starting point for new discord bot p
         python -m venv project_name_venv
         ```
     
-    Your venv should now be created inside your project folder. It should also already be activated in the VSCode terminal. For more help, see [this helpful python tutorial](https://www.youtube.com/watch?v=x1cbYa2SSlE&ab_channel=AirheadsBroadcasting "AirheadsBroadcasting"). Do **NOT** forget to put the name of your venv inside the .env file, to prevent uploading it to github.
+    Your venv should now be created inside your project folder. It should also already be activated in the VSCode terminal. For more help, see [this helpful python tutorial](https://www.youtube.com/watch?v=x1cbYa2SSlE&ab_channel=AirheadsBroadcasting "AirheadsBroadcasting Youtube Channel"). Do **NOT** forget to put the name of your venv inside the .gitignore file, to prevent uploading it to github.
+
     - Create a new requirements.txt file (or update it if you already have one) by typing
 
         ```
@@ -43,7 +44,7 @@ A clonable repository that can be used as a starting point for new discord bot p
     - Go to the OAuth2 URL Generator, select scopes (specifically **bot**), select bot permissions (for example **Send Messages**, **Read Messages/View Channels**). Copy and paste the generated URL in a browser Tab.
 
 * Launch the bot.
-    - Grab your bot token (in **Settings** -> **Bot**), and put it into your .environ file. Formatting should be:
+    - Grab your bot token (in **Settings** -> **Bot**), and put it into your .env file. Formatting should be:
 
         ```
         KEY1 = 12345

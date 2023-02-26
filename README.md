@@ -16,8 +16,12 @@ A clonable repository that can be used as a starting point for new discord bot p
         ```
         python -m venv project_name_venv
         ```
+        Then activate the virtual environment by typing
+        ```
+        project_name_venv\Scripts\activate
+        ```
     
-    Your venv should now be created inside your project folder. It should also already be activated in the VSCode terminal. For more help, see [this helpful python tutorial](https://www.youtube.com/watch?v=x1cbYa2SSlE&ab_channel=AirheadsBroadcasting "AirheadsBroadcasting Youtube Channel"). Do **NOT** forget to put the name of your venv inside the .gitignore file, to prevent uploading it to github.
+    Your venv should now be created inside your project folder. It should also be activated in the VSCode terminal. For more help, see [this helpful python tutorial](https://www.youtube.com/watch?v=x1cbYa2SSlE&ab_channel=AirheadsBroadcasting "AirheadsBroadcasting Youtube Channel"). Do **NOT** forget to put the name of your venv inside the .gitignore file, to prevent uploading it to github.
 
     - Create a new requirements.txt file (or update it if you already have one) by typing
 
